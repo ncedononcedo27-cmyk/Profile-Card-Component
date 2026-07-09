@@ -1,100 +1,151 @@
-# Frontend Mentor - Profile card component
+# Frontend Mentor - Profile card component solution
 
-![Design preview for the Profile card component coding challenge](preview.jpg)
+This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+  - [AI Collaboration](#ai-collaboration)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+## Overview
 
-## The challenge
+### The challenge
 
-Your challenge is to build out this profile card component and get it looking as close to the design as possible.
+- Build out the project to the designs provided
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+### Screenshot
 
-### Want some support on the challenge? 
+![](./images/screenshot1.png)
+### Links
 
-[Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+- My Solution URL: [solution](https://www.frontendmentor.io/solutions/profile-card-component-2o6pGQ2U3O)
+- My Live Site URL: [live site](https://ncedononcedo27-cmyk.github.io/Profile-Card-Component/)
 
-## Where to find everything
+## My process
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design.
+### Built with
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
 
-If you would like the Figma design file to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+### What I learned
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+* I learned how to structure a webpage using HTML by creating sections such as the profile card, profile image, and statistics.
+* I learned how to use CSS to style a webpage, including changing colors, fonts, spacing, and adding rounded corners.
+* I learned how to use Flexbox (display: flex) to center content and arrange items neatly.
+* I learned how to position elements using position: absolute and position: relative, especially for the background patterns and profile picture.
+* I learned how to use images as backgrounds with background-image and background-size: cover.
+* I learned how to create a responsive webpage using the viewport meta tag and CSS measurements.
+* I learned how to organize HTML and CSS into separate files, making the project easier to maintain.
+* I gained a better understanding of how HTML provides the structure while CSS controls the appearance of a webpage.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+Challenges I overcame:
 
-## Using AI coding assistants
+* Positioning the profile picture correctly over the card header.
+* Centering the profile card on the page.
+* Styling the statistics section so all items were evenly spaced.
+* Making sure the background images appeared in the correct positions.
 
-We've included two files to help you if you're using AI coding assistants (like Claude, GitHub Copilot, Cursor, etc.) while working on this challenge:
+To see how you can add code snippets, see below:
 
-- `AGENTS.md` - Contains detailed instructions for AI assistants on how to help you with this challenge. It's tailored to this challenge's difficulty level, so the AI will provide guidance appropriate to your learning stage—offering more support for beginner challenges and encouraging more independence on advanced ones.
-- `CLAUDE.md` - A pointer file that directs Claude-based tools to the AGENTS.md instructions.
+```html
+<h1>Some HTML code I'm proud of</h1>
+```<img src="images/bg-pattern-top.svg" class="top-bg">
 
-**How to use them:** You don't need to do anything! These files are automatically detected by most AI coding tools. The AI will read them and adjust its behavior to be a better learning partner—guiding you toward solutions rather than just giving you the answers.
 
-**Note:** These files are designed to help you *learn*, not to do the work for you. The AI is instructed to ask questions, give hints, and explain concepts rather than writing complete solutions.
+<img src="images/bg-pattern-bottom.svg" class="bottom-bg">
 
-## Building your project
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+<div class="card">
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
 
-## Deploying your project
+<div class="card-header"></div>
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+<img src="images/image-victor.jpg" class="profile">
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://www.frontendmentor.io/guides/hosting-your-solution).
 
-## Create a custom `README.md`
+<div class="info">
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+<h2>Victor Crest <span>26</span></h2>
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
 
-## Submitting your solution
+<p>London</p>
+```
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://www.frontendmentor.io/guides/how-to-submit-solutions) for tips on how to do this.
+```css
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
 
-## Sharing your solution
+body{
 
-There are multiple places you can share your solution:
 
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community).
-2. Share on [X (formerly Twitter)](https://x.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in your post. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on [LinkedIn](https://www.linkedin.com/company/frontend-mentor/).
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+background:hsl(185,75%,39%);
+height:100vh;
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback.
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+display:flex;
+justify-content:center;
+align-items:center;
 
-## Got feedback for us?
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+overflow:hidden;
+position:relative;
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
-**Have fun building!** 🚀
+}
+```
+
+### Continued development 
+
+Going forward, I would like to continue improving my HTML and CSS skills by creating more complex and responsive websites. I also want to learn CSS Grid, JavaScript, and web accessibility so I can build more interactive, user-friendly, and professional-looking websites. By practising more projects, I hope to become more confident and improve the quality of my code.
+
+
+### Useful resources
+
+- [Cisco HTML Essentials](https://www.netacad.com/courses/html-essentials) 
+- [w3schools](https://www.w3schools.com/css/default.asp)
+
+
+### AI Collaboration
+
+Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
+
+- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
+* ChatGPT, Gemini and whatsapp meta.gvb     
+
+- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
+* ChatGPT helped me with the html and css refinement. I really liked this pattern and will use it going forward. Gemini helped me understand my errors . I'd recommend it to anyone still learning this concept.
+
+- What worked well? What didn't?
+* ChatGPT and Gemini worked very well for me but whatsapp meta did not.
+
+
+## Author
+
+- Frontend Mentor - [@ncedononcedo27-cmyk](https://www.frontendmentor.io/profile/ncedononcedo27-cmyk)
+
+## Acknowledgments
+I would like to sincerely thank my classmate Lindsey for her guidance, support, and assistance throughout this project. Her explanations and feedback helped me better understand HTML and CSS concepts, especially with styling, positioning, and organizing my code. I truly appreciate the time and effort she invested in helping me complete this project successfully.
+
+
