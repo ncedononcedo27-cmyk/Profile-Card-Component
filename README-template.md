@@ -29,8 +29,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ![](./images/screenshot1.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- My Solution URL: [solution](https://www.frontendmentor.io/solutions/profile-card-component-2o6pGQ2U3O)
+- My Live Site URL: [live site](https://ncedononcedo27-cmyk.github.io/Profile-Card-Component/)
 
 ## My process
 
@@ -147,5 +147,5 @@ Describe how you used AI tools (if any) during this project. This helps demonstr
 
 ## Acknowledgments
 I would like to sincerely thank my classmate Lindsey for her guidance, support, and assistance throughout this project. Her explanations and feedback helped me better understand HTML and CSS concepts, especially with styling, positioning, and organizing my code. I truly appreciate the time and effort she invested in helping me complete this project successfully.
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+
 
